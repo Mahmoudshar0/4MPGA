@@ -1,0 +1,50 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   background-color: antiquewhite;
+}
+.nav .container a{
+   border-radius: 10px;
+   transition: 0.3s;
+}
+.nav .container .active{
+   background-color: rgb(98, 98, 255);
+}
+.nav .container .active:hover{
+   background-color: blue;
+}
+.last a:only-of-type{
+   padding: 10px 30px;
+   background-color: rgb(98, 98, 255);
+   border-radius: 15px;
+   font-size: 20px;
+   transition: 0.3s;
+}
+.last a:only-of-type:hover{
+   background-color: blue;
+}
+
+
+
+
+.container input{
+   border: none;
+} 
+.container svg{
+   background-color: black;
+   padding: 10px;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   transition: 0.3s;
+}
+.container svg:hover{
+   background-color: bisque;
+}
+input:focus{
+   outline: none;
+}
+.mapres{
+   display: none;
+   /* display: flex; */
+}
